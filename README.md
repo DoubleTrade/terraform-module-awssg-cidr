@@ -2,7 +2,7 @@
 
 * Example:
 
-```
+```hcl
 module "logs_sg_rule_egress" {
   source = "git::https://github.com/notuscloud/terraform-module-awssg-cidr.git?ref=v0.1.0"
 
