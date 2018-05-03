@@ -4,7 +4,8 @@
 
 ```
 module "logs_sg_rule_egress" {
-  source = "../commons/aws/vpc/security_group_rule"
+  source = "git::https://github.com/notuscloud/terraform-module-awssg-cidr.git?ref=v0.1.0"
+
   type = "egress"
   from_port = "0"
   to_port = "0"
