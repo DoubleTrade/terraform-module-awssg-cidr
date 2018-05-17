@@ -6,3 +6,7 @@ variable "security_group_id" {}
 variable "cidr_blocks" {
   type = "list"
 }
+variable "description" {
+  default = ""
+  description = "Rule description"
+}
