@@ -12,5 +12,6 @@ module "logs_sg_rule_egress" {
   protocol          = "-1"
   cidr_blocks       = ["0.0.0.0/0"]
   security_group_id = "${module.logs_sg.id}"
+  description       = "Some description"
 }
 ```
